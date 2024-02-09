@@ -1,0 +1,29 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 48px 0 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
+  }
+
+  /* Custom styles for navigation links */
+  .sidebar ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .sidebar ul li {
+    padding: 8px 16px;
+  }
+
+  .sidebar ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+
+  .sidebar ul li.active a {
+    color: #007bff;
+    font-weight: bold;
+  }
